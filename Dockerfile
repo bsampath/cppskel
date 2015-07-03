@@ -15,5 +15,5 @@ RUN mkdir build && cd build && cmake ..
 
 WORKDIR /opt/build
 
-# build and cleanup in a single layer
-RUN make 
+# build
+RUN make
